@@ -4,7 +4,7 @@ Description : we were given 140 key and a ciphered text.
 ## Walkthrough
 
 The first thing i did was looking some of the keys. i noticed that there are private and public keys. 
-I tried to bruteforce decoding the message using all the given private key but got nothing from it.
+I tried to bruteforce decoding the message using all the given private keys but got nothing from it.
 Then i started looking at the public keys, using Rsactftool to retrive the private keys doesn't seem to work. my computer always crashes so i gave up on that.
 Then i had an idea to see if some of the private and public keys uses the same modulus (n).
 (Don't mind my messy script :p)
